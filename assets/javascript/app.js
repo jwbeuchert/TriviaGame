@@ -37,3 +37,11 @@ var player = {
   
   $(document).ready(function(){ 
   });
+
+  function initialization(){
+    player.isPlaying = !player.isPlaying;
+    gameStatus = [];
+    player.numberCorrect = 0;
+    player.numberIncorrect = 0;
+    questionsArray = createQuestionArray();
+  }
