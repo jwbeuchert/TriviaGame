@@ -20,3 +20,20 @@ var player = {
   var timeSummary = 10000;
   var time = 0;
   var counter;
+
+  var timeProgress = {
+    start: function(){
+      counter = setInterval(timeProgress.count,1000);
+    },
+    stop: function(){
+      clearInterval(counter);
+      time = 0;
+    },
+    count: function(){
+      time++;
+      console.log(time);
+    }
+  }
+  
+  $(document).ready(function(){ 
+  });
