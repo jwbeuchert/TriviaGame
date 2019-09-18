@@ -23,13 +23,48 @@
           <div class="jumbotron">
             <h1 class="jumboContentTitle">Seinfeld Trivia Game!</h1>
             <p class="jumboContent">Let's see how much you know about Seinfeld!</p>
-            <p class="jumboContent" id="pressStartText">press start to begin</p>
+            <p class="jumboContent" id="pressStartText">Press Start to Begin</p>
             <!--<div class="row" id="startGameButtonRow">-->
             <!--<div class="col-md-12" id="startGameButtonColumn">-->
               <button type="button" id="startGameButton">start</button>
             <!--</div>-->
           <!--</div>-->
           </div>
+
+          <div class="row" id="timeBarRow"></div>
+          <div class="row" id="summaryRow"></div>
+          <div class="row" id="questionRow"></div>
+    
+          <div class="row" id="answersRow"></div>
+    
+          <div class="modal fade" id="myModal" role="dialog" data-backdrop="static" data-keyboard="false">
+            <div class="modal-dialog">
+        
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title"></h4>
+            </div>
+            <div class="modal-body">
+              <p id="correctAnswer"></p>
+              <div class="col-md-6">
+                <img class="picture" src="">
+              </div>
+              <div class="col-md-6">
+                <p id="answerExplanation"></p>
+              </div>       
+              
+            </div>
+            <!--<div class="modal-footer">
+            </div>-->
+          </div>
+          
+          </div>
+      </div>
+      
+    </div>
+    
+        </div>
 
   <!--jquery-->
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"
