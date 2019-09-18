@@ -1,0 +1,71 @@
+body{
+    background-image: url("../images/Seinfeld_English_logo.png");
+    background-size: 100%;
+    background-size: contain;
+    font-family: 'Arapey', monospace;
+  }
+  
+  h1.jumboContentTitle{
+    color: red;
+  }
+  
+  .jumboContent{
+    color:red;
+  }
+  
+  #startGameButton{
+    background-color: lightyellow;
+    width: 100%;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 15px;
+    border: 2px;
+    }
+  
+    #startGameButton:hover{
+      background-color: royalblue;
+    }
+  
+  .answersButtons{
+    font-size: 20px;
+    margin: 3px;
+    background: none;
+    width: 100%;
+    border-radius: 15px;
+    border: 2px solid lightgray;
+  }
+  
+  .answersButtons:hover{
+    border: 2px solid royalblue;
+    color: royalblue;
+  }
+  
+  .picture{
+    max-height: 300px;
+    max-width: 200px;
+    text-align: center;
+  }
+  
+  .modal-content{
+    color: black;
+  }
+  
+  .modal-body{
+    overflow: hidden;
+  }
+
+  /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  }
+
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  }
