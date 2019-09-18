@@ -45,3 +45,15 @@ var player = {
     player.numberIncorrect = 0;
     questionsArray = createQuestionArray();
   }
+
+  function createQuestionArray(){
+    function questionObject(question, answers, correctAnswer, userAnswer, answerExplanation, picture, isCorrect, isTimeUp){
+      this.question = question;
+      this.answers = answers;
+      this.correctAnswer = this.answers[correctAnswer];
+      this.userAnswer = this.answers[userAnswer];
+      this.answerExplanation = answerExplanation;
+      this.picture = picture;
+      this.isCorrect = isCorrect;
+      this.isTimeUp = isTimeUp;
+    }
